@@ -5,7 +5,7 @@ Projeto - Processo Seletivo Bahia
 🧾 Descrição do Desafio feito em meados do ano de 2024, onde fui aprovado no processo.
 O objetivo principal foi construir um sistema com as seguintes responsabilidades:
 
-Python: leitura de um arquivo .txt contendo ordens e emolumentos, com inserção dos dados em um banco de dados SQL Server.
+Python: leitura de um arquivo .csv contendo ordens e emolumentos, com inserção dos dados em um banco de dados SQL Server.
 
 Back-End (C# - Web API): exposição de endpoints para relatórios de:
 
