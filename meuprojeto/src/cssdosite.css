@@ -1,0 +1,178 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.navbar {
+    background-color: #4d4d4d;
+    padding: 15px;
+}
+  
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+.navbar ul li {
+    position: relative;
+}
+  
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
+.navbar ul li a:hover {
+    background-color: #bcbcbc; /* Cinza mais claro ao passar o mouse */
+    border-radius: 4px;
+}
+
+.navbar ul li.logo-item a:hover{
+  background-color: #4d4d4d;
+}
+  
+  /* Estilo da logo */
+.logo {
+    width: 150px; 
+    height: auto;
+    
+}
+.logo-item {
+    margin-right: 170%;
+    margin-left: 10%;
+    
+}
+  
+  /* Estilos para o submenu */
+.navbar ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+  
+.navbar ul li ul.submenu li {
+    margin: 0;
+    width: 180px;
+}
+  
+.navbar ul li ul.submenu li a {
+    color: #4d4d4d; 
+    padding: 10px 15px;
+    text-transform: none;
+}
+  
+  /* Mostrar o submenu ao passar o mouse */
+.navbar ul li:hover ul.submenu {
+    display: block;
+}
+  
+  /* Responsividade do submenu */
+@media (max-width: 1300px) {
+    .navbar ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar ul li ul.submenu {
+      position: static;
+      box-shadow: none;
+      padding: 0;
+    }
+    
+    .navbar ul li ul.submenu li {
+      width: 100%;
+    }
+    .logo-item{
+      margin:0;
+    }
+}
+  
+  /* Estilo do footer */
+.footer {
+    background-color: #4d4d4d; /* Cor de fundo do footer */
+    color: #fff;
+    padding: 20px 0;
+    position: absolute;
+    text-align: center;
+    bottom: -1;
+    width: 100%;
+}
+  
+.footer .social-icons {
+    margin-bottom: 10px;
+}
+  
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+  
+.footer .social-icons img {
+    width: 20px; 
+    height: auto;
+}
+  
+  /* Estilo das tabelas e spinner */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+  
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.3rem;
+}
+  
+  /* Centralizar botões e tabelas */
+.text-center {
+    text-align: center;
+    margin: 10%;
+}
+  
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+
+  /* Aplicar o peso da fonte */
+.navbar ul li a, 
+  table th, 
+  table td, 
+  button,
+  section,
+.footer p {
+    font-weight: 300; 
+}
+  
+  

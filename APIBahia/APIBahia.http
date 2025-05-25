@@ -1,0 +1,6 @@
+@APIBahia_HostAddress = http://localhost:5058
+
+GET {{APIBahia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

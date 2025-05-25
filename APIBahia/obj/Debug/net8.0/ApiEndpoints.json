@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "APIBahia.Controllers.MostraDadosBDController",
+    "Method": "MostraDadosBD",
+    "RelativePath": "api/MostraDadosBD",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBahia.Controllers.MostraDadosBDController",
+    "Method": "GetMediaEmolumento",
+    "RelativePath": "api/MostraDadosBD/media",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
